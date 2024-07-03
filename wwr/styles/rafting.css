@@ -1,0 +1,95 @@
+@import url(" https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "IBM Plex Mono", monospace;
+  color: var(--primary-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--primary-color);
+  margin-right: 20px;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 3em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  color: #fff;
+}
+
+.hero article img {
+  float: right;
+  margin-left: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer nav.sociallinks a {
+  text-decoration: none;
+}
+
+footer nav.sociallinks a img {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  filter: grayscale(100%);
+}
+
+footer nav.sociallinks a img:hover {
+  filter: none;
+}
