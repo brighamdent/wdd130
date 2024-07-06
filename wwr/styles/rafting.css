@@ -93,3 +93,27 @@ footer nav.sociallinks a img {
 footer nav.sociallinks a img:hover {
   filter: none;
 }
+
+.adventures {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+figure {
+  margin: 0;
+  text-align: center;
+}
+
+figure img {
+  width: 300px;
+  height: auto;
+}
+
+figcaption {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #666;
+}
