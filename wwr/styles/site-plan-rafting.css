@@ -1,24 +1,24 @@
-@import url(" https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap");
+
+:root {
+  --primary-color: #333333;
+  --secondary-color: #555555;
+  --accent1-color: #ff6f61;
+  --accent2-color: #ffa726;
+
+  --heading-font: "Georgia", serif;
+  --paragraph-font: "Arial", sans-serif;
+
+  --nav-background-color: #333333;
+  --nav-link-color: #ffffff;
+  --nav-hover-link-color: #ff6f61;
+  --nav-hover-background-color: #555555;
+}
 
 body {
   font-family: "IBM Plex Mono", monospace;
   max-width: 960px;
   padding: 20px;
-}
-
-:root {
-  --primary-color: #XXXXXX;
-  --secondary-color: #XXXXXX;
-  --accent1-color: #XXXXXX;
-  --accent2-color: #XXXXXX;
-
-  --heading-font: "______", serif;
-  --paragraph-font: "______", serif;
-
-  --nav-background-color: #XXXXXX;
-  --nav-link-color: #XXXXXX;
-  --nav-hover-link-color: #XXXXXX;
-  --nav-hover-background-color: #XXXXXX;
 }
 
 h1,
@@ -38,6 +38,7 @@ header {
 
 p {
   padding: 25px;
+  font-family: var(--paragraph-font);
 }
 
 nav {
