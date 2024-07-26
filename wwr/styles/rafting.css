@@ -124,7 +124,7 @@ footer nav.sociallinks a img:hover {
 figure {
   margin: 0;
   text-align: center;
-  flex: 1 1 calc(20% - 20px); /* Adjust based on the number of figures you want to show in a row */
+  flex: 1 1 calc(20% - 20px);
 }
 
 figure img {
