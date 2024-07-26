@@ -63,3 +63,9 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
+
+iframe {
+  border: none; /* No border */
+  /* or specify a border */
+  border: 2px solid #000; /* Example: black border */
+}
